@@ -3,6 +3,8 @@
     margin: 1rem;
     padding: 1.5rem;
     box-shadow: 0 0 3px 2px #F1F1F1;
+    background-color: teal;
+    color: white;
 }
 
 .card__title {

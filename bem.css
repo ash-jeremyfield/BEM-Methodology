@@ -18,6 +18,7 @@
 
 .cardContent {
     position: relative;
+    font-family: sans-serif;
 }
 
 .cardFooter {
@@ -25,25 +26,20 @@
     border-top: 1px solid lightgray;
 }
 
-.cardHeader__title {
-    padding: 1.5rem;
-    position: absolute;
-    bottom: 0;
-    font-family: sans-serif;
-    color: white;
+.cardContent__title {
+    padding: 1.5rem 1.5rem 0 1.5rem;
 }
 
 .cardContent__description {
-    padding: 1.5rem;
-    font-family: sans-serif;
+    padding: 1rem 1.5rem;
 }
 
 .cardContent__button {
     position: absolute;
-    top: -20px;
-    right: 20px;
-    width: 40px;
-    height: 40px;
+    top: -30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
     border-width: 0;
     border-radius: 100%;
     font-size: 2rem;
